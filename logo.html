@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="logo.css">
+    </head>
     <body style="background-color: lightgreen;">
         <svg width="100vw" height="100vh">
             <defs>
@@ -12,10 +15,12 @@
             </defs>
             <circle cx="700" cy="350" r="100" stroke="black" stroke-width="4" fill="url(#gradientlogo)" >
             </circle>
-            <image x="625" y="280" href="logo-part Background Removed.png" width="150">
-
-            </image>
-
+            <g id="logo-group">
+                <image id="logo-front" x="625" y="280" href="logo-front Background Removed.png" width="150">
+                </image>
+                <image id="logo-back" x="555" y="200" href="logo-back Background Removed.png" width="300">
+                </image>
+            </g>
         </svg>
     </body>
 </html>

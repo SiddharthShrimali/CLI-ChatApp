@@ -1,0 +1,19 @@
+#logo-group {
+    transform-style: preserve-3d;
+}
+
+#logo-group:hover {
+    transform: rotateY(180deg);
+}
+
+#logo-back {
+    display: none;
+}
+
+#logo-group:hover #logo-front {
+    display:none;
+}
+
+#logo-group:hover #logo-back {
+    display:block;
+}
